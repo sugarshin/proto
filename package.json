@@ -1,9 +1,8 @@
 {
   "name": "proto-es6",
-  "version": "0.0.1",
   "description": "proto-es6",
   "scripts": {
-    "start": "budo main.js -v --live -- -t babelify --extension='.jsx' | garnish"
+    "start": "budo main.js:main.js --live -v -- -t babelify --extension='.jsx' | opnr | garnish"
   },
   "repository": {
     "type": "git",
