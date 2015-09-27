@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "proto-es6",
   "scripts": {
-    "start": "budo main.js -v --live -- -t babelify --extension='.jsx' | garnish"
+    "start": "budo main.js -ol -- -t [ babelify --stage 0 ] --extension='.jsx' | garnish"
   },
   "repository": {
     "type": "git",
