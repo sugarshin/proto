@@ -2,7 +2,7 @@
   "name": "proto-es6",
   "description": "proto-es6",
   "scripts": {
-    "start": "budo main.js -ol -- -t [ babelify --stage 0 ] --extension='.jsx' | garnish"
+    "start": "budo index.js -ol -- -t [ babelify --presets [ es2015 stage-0 react ] ] --extension='.jsx' | garnish"
   },
   "repository": {
     "type": "git",
